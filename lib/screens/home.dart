@@ -28,13 +28,16 @@ class _HomeState extends State<Home> {
           ),
           SafeArea(
               child: Padding(
-            padding: const EdgeInsets.symmetric(horizontal: 20),
+            padding: const EdgeInsets.symmetric(
+              horizontal: 20,
+            ),
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: <Widget>[
                 Align(
                   alignment: Alignment.topRight,
                   child: Container(
+                    margin: EdgeInsets.symmetric(vertical: 20),
                     height: 50,
                     width: 50,
                     decoration: BoxDecoration(
