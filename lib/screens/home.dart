@@ -18,8 +18,6 @@ class _HomeState extends State<Home> {
             height: size.height * .45,
             decoration: BoxDecoration(
                 color: Colors.white,
-                borderRadius:
-                    BorderRadius.horizontal(left: Radius.circular(100)),
                 image: DecorationImage(
                     alignment: Alignment.centerRight,
                     scale: 2,
