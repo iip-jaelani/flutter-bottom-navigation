@@ -28,7 +28,7 @@ class _HomeState extends State<Home> {
           ),
           SafeArea(
               child: Padding(
-            padding: const EdgeInsets.all(20),
+            padding: const EdgeInsets.symmetric(horizontal: 20),
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: <Widget>[
@@ -77,7 +77,7 @@ class _HomeState extends State<Home> {
                 Expanded(
                     child: GridView.count(
                   crossAxisCount: 2,
-                  childAspectRatio: .89,
+                  childAspectRatio: .75,
                   crossAxisSpacing: 20,
                   mainAxisSpacing: 20,
                   children: <Widget>[
@@ -136,7 +136,7 @@ class ActionsCard extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       decoration: BoxDecoration(
-          color: Colors.blue[300], borderRadius: BorderRadius.circular(34.0)),
+          color: Colors.blue[300], borderRadius: BorderRadius.circular(16.0)),
       child: Padding(
         padding: const EdgeInsets.all(20.0),
         child: Column(
